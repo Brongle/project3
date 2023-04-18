@@ -1,0 +1,259 @@
+
+#wallpaper {
+	background-color: teal;
+	align-items:center;
+	text-align:center;
+}
+#nav-bar {
+	background-color: #E3735E;
+	overflow: hidden;
+}
+#nav-container {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+#nav-bar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: 50%;
+	float: left;
+}
+#nav-bar ul li {
+	float: left;
+	position: relative;
+	right: 50%;
+	display: block;
+	font-family:"Palatino";
+}
+#nav-bar ul li a {
+	display: block;
+	padding: 20px 20px;
+	color: white;
+	text-decoration: none;
+}
+#nav-bar ul li a:hover {
+	background-color: grey;
+}
+h1 {
+	background-color: #008B8B;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	font-family: "Palatino";
+	margin-left: 10px;
+	margin-right: 10px;
+}
+h2 {
+	background-color: #5F9EA0;
+	color: white;
+	text-align: center;
+	font-family: "Palatino";
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#skills {
+	text-align: center;
+	border-style: solid;
+	border-color: #E3735E;
+	float: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #20B2AA;
+}
+#skills h2 {
+	background-color: #5F9EA0;
+	color: white;
+	text-align: center;
+	font-family: "Palatino";
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#skills ul li {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: "Palatino";
+	color: white;
+	text-align: left;
+	list-style-type: none;
+	border-style:inset;
+	border-color:grey;
+}
+#edu {
+	text-align: center;
+	border-style: solid;
+	border-color: #E3735E;
+	float: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #20B2AA;
+}
+#edu h2 {
+	background-color: #5F9EA0;
+	color: white;
+	text-align: center;
+	font-family: "Palatino";
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#edu h4 {
+	color: white;
+	font-family: "Palatino";
+	background-color: #5F9EA0;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#edu p {
+	color: white;
+	font-family: "Palatino";
+}
+#edu ul li {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: "Palatino";
+	color: white;
+	text-align: left;
+	list-style-type: none;
+	border-style:inset;
+	border-color:grey;
+}
+#experience {
+	text-align: center;
+	border-style: solid;
+	border-color: #E3735E;
+	float: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #20B2AA;
+}
+#experience h2 {
+	background-color: #5F9EA0;
+	color: white;
+	text-align: center;
+	font-family: "Palatino";
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#experience h4 {
+	color: white;
+	font-family: "Palatino";
+	background-color: #5F9EA0;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#experience ul li {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: "Palatino";
+	color: white;
+	text-align: left;
+	list-style-type: none;
+	border-style:inset;
+	border-color:grey;
+}
+#experience p {
+	color: white;
+	font-family: "Palatino";
+}
+#contact {
+	background-color: #20B2AA;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	font-family: "Palatino";
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	border-style: hidden;
+}	
+#end {
+	text-align: center;
+	border-style: solid;
+	border-color: #E3735E;
+	float: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #20B2AA;
+}
+#end h4{
+	background-color: #5F9EA0;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	font-family: "Palatino";
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+#end p {
+	color: white;
+	font-family: "Palatino";
+}
+	
+
+#header {
+	text-align: center;
+	border-style: solid;
+	border-color: #E3735E;
+	float: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #20B2AA;
+}
+#header p {
+	color:white;
+	font-family: "Palatino";
+}
+#Genres {
+	text-align: center;
+	border-style: solid;
+	border-color: #E3735E;
+	float: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #20B2AA;
+}
+p {
+	color:white;
+	font-family: "Palatino";
+}
+h3 {
+	background-color: #5F9EA0;
+	color: white;
+	text-align: center;
+	font-family: "Palatino";
+	margin-left: 20px;
+	margin-right: 20px;
+}
