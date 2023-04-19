@@ -1,4 +1,4 @@
-function initMap() {
+function init() {
 	var place = document.getElementById('canvas');
 	var myLocation = new google.maps.LatLng(52.228197039017445, 21.020672913786676);
 	var mapO = {
@@ -13,11 +13,12 @@ function initMap() {
 	
 	var marker = new google.maps.Marker({
 		position: myLocation,
-		map,
-		 title: "Capital of Poland",
-		 animation: google.maps.Animation.DROP,
+		map: myMap,
+		title: "Capital of Poland",
+		animation: google.maps.Animation.DROP,
+		icon: 
 	});
-	
+	marker.setMap(myMap);
 	var content= '<h1>Warsaw, Poland</h1> <p> My family is from Poland and Warsaw is the capital of Poland with many beautiful areas to visit. Although my family is not from Warsaw the city has many interesting sites and a very rich history.</p>'
 }
 
