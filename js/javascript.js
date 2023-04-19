@@ -1,7 +1,7 @@
 function init() {
 	alert('it works');
-	var place = document.getElementById('canvas');
-	var myLocation = new google.maps.LatLng(52.228197039017445, 21.020672913786676);
+	var el = document.getElementById('canvas');
+	var myLocation = new google.maps.LatLng(52.23029990325073, 21.000073548420396);
 	var mapO = {
 		center: myLocation,
 		zoom: 10;
@@ -12,7 +12,7 @@ function init() {
 			position: google.maps.ControlPosition.BOTTOM_CENTER
 		}
 	});
-	var myMap= new google.maps.Map(place,mapO);
+	var myMap= new google.maps.Map(el,mapO);
 	
 	var marker = new google.maps.Marker({
 		position: myLocation,
@@ -27,6 +27,7 @@ function init() {
     var infowindow = new google.maps.InfoWindow({
 		content: contentPL
 	});
-
+	google.maps.event.addListener(marker, 'mouseover'function() {
+		infowindow.open(myMap, marker);
 google.maps.event.addDomListener(window,'load', init);
 		
