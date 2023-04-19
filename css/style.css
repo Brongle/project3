@@ -431,7 +431,7 @@ h2 {
 	font-family: "Merriweather";
 }
 	
-.img {
+#header {
 	text-align: center;
 	border-style: solid;
 	border-color: #E3735E;
@@ -444,7 +444,45 @@ h2 {
 	padding-left: 10px;
 	background-color: #20B2AA;
 }
-
+#header2 {
+	text-align: center;
+	border-style: solid;
+	border-color: #E3735E;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #20B2AA;
+}
+#header3 {
+	text-align: center;
+	border-style: solid;
+	border-color: #E3735E;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #20B2AA;
+}
+img {
+	text-align: center;
+	border-style: solid;
+	border-color: #E3735E;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #20B2AA;
+}
 #header p {
 	color:white;
 	font-family: "Merriweather";
