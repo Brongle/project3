@@ -1,18 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap'); 
 
 #wallpaper {
 	background-color: teal;
 	align-items:center;
 	text-align:center;
 }
+
 #nav-bar {
 	background-color: #E3735E;
 	overflow: hidden;
 }
+
 #nav-container {
 	float: left;
 	width: 100%;
 	position: relative;
 }
+
 #nav-bar ul {
 	list-style-type: none;
 	margin: 0;
@@ -21,38 +25,247 @@
 	left: 50%;
 	float: left;
 }
+
 #nav-bar ul li {
 	float: left;
 	position: relative;
 	right: 50%;
 	display: block;
-	font-family:"Palatino";
+	font-family:"Merriweather";
 }
+
 #nav-bar ul li a {
 	display: block;
 	padding: 20px 20px;
 	color: white;
 	text-decoration: none;
 }
+
 #nav-bar ul li a:hover {
 	background-color: grey;
 }
+
 h1 {
 	background-color: #008B8B;
 	color: white;
 	font-size: 50px;
 	text-align: center;
-	font-family: "Palatino";
+	font-family: "Times New Roman", Times, serif;
 	margin-left: 10px;
 	margin-right: 10px;
 }
+
 h2 {
 	background-color: #5F9EA0;
 	color: white;
 	text-align: center;
-	font-family: "Palatino";
+	font-family: "Merriweather";
 	margin-left: 10px;
 	margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+	.mobile {
+		background-color: teal;
+	}
+	#skills {
+		text-align: center;
+		border-style: solid;
+		border-color: #E3735E;
+		float: center;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		padding: 10px;
+		padding-right: 10px;
+		padding-left: 10px;
+		background-color: #20B2AA;
+		font-size: 0.8em;
+		width:100%;
+	}
+	
+	h2 {
+	  background-color: #5F9EA0;
+	  color: white;
+	  text-align: center;
+	  font-family: "Merriweather";
+	  margin-left: 10px;
+	  margin-right: 10px;
+	  width:100%;
+}
+
+	ul li {
+	  margin-left: 10px;
+	  margin-right: 10px;
+	  font-family: "Merriweather";
+	  color: white;
+	  text-align: left;
+	  list-style-type: none;
+	  border-style:inset;
+	  border-color:grey;
+	  width:100%;
+}
+
+	#edu {
+	  text-align: center;
+	  border-style: solid;
+	  border-color: #E3735E;
+	  float: center;
+	  margin-left: 10px;
+	  margin-right: 10px;
+	  margin-top: 15px;
+	  margin-bottom: 15px;
+	  padding: 10px;
+	  padding-right: 10px;
+	  padding-left: 10px;
+	  background-color: #20B2AA;
+	  font-size: 0.8ems;
+	  width:100%;
+}
+	h4 {
+	  color: white;
+	  font-family: "Merriweather";
+	  background-color: #5F9EA0;
+	  margin-left: 20px;
+	  margin-right: 20px;
+	  width:100%;
+}
+	p {
+	  color: white;
+	  font-family: "Merriweather";
+}
+	#contact {
+	  background-color: #20B2AA;
+	  color: white;
+	  font-size: 25px;
+	  text-align: center;
+	  font-family: "Merriweather";
+	  margin-left: 10px;
+	  margin-right: 10px;
+	  margin-top: 10px;
+	  border-style: hidden;
+	  font-size: 0.8ems;
+	  width:100%;
+}
+	
+	#end {
+	  text-align: center;
+	  border-style: solid;
+	  border-color: #E3735E;
+	  float: center;
+	  margin-left: 10px;
+	  margin-right: 10px;
+	  margin-top: 15px;
+	  margin-bottom: 15px;
+	  padding: 10px;
+	  padding-right: 10px;
+	  padding-left: 10px;
+	  background-color: #20B2AA;
+	  font-size: 0.8ems;
+	  width:100%;
+}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	.mobile {
+		background-color: teal;
+	}
+	#skills {
+		text-align: center;
+		border-style: solid;
+		border-color: #E3735E;
+		float: center;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		padding: 10px;
+		padding-right: 10px;
+		padding-left: 10px;
+		background-color: #20B2AA;
+		font-size: 0.8em;
+		width:100%;
+	}
+	
+	h2 {
+	  background-color: #5F9EA0;
+	  color: white;
+	  text-align: center;
+	  font-family: "Merriweather";
+	  margin-left: 10px;
+	  margin-right: 10px;
+	  width:100%;
+}
+
+	ul li {
+	  margin-left: 10px;
+	  margin-right: 10px;
+	  font-family: "Merriweather";
+	  color: white;
+	  text-align: left;
+	  list-style-type: none;
+	  border-style:inset;
+	  border-color:grey;
+	  width:100%;
+}
+
+	#edu {
+	  text-align: center;
+	  border-style: solid;
+	  border-color: #E3735E;
+	  float: center;
+	  margin-left: 10px;
+	  margin-right: 10px;
+	  margin-top: 15px;
+	  margin-bottom: 15px;
+	  padding: 10px;
+	  padding-right: 10px;
+	  padding-left: 10px;
+	  background-color: #20B2AA;
+	  font-size: 0.8ems;
+	  width:100%;
+}
+	h4 {
+	  color: white;
+	  font-family: "Merriweather";
+	  background-color: #5F9EA0;
+	  margin-left: 20px;
+	  margin-right: 20px;
+	  width:100%;
+}
+	p {
+	  color: white;
+	  font-family: "Merriweather";
+}
+	#contact {
+	  background-color: #20B2AA;
+	  color: white;
+	  font-size: 25px;
+	  text-align: center;
+	  font-family: "Merriweather";
+	  margin-left: 10px;
+	  margin-right: 10px;
+	  margin-top: 10px;
+	  border-style: hidden;
+	  font-size: 0.8ems;
+	  width:100%;
+}
+	
+	#end {
+	  text-align: center;
+	  border-style: solid;
+	  border-color: #E3735E;
+	  float: center;
+	  margin-left: 10px;
+	  margin-right: 10px;
+	  margin-top: 15px;
+	  margin-bottom: 15px;
+	  padding: 10px;
+	  padding-right: 10px;
+	  padding-left: 10px;
+	  background-color: #20B2AA;
+	  font-size: 0.8ems;
+	  width:100%;
+}
 }
 #skills {
 	text-align: center;
@@ -68,24 +281,27 @@ h2 {
 	padding-left: 10px;
 	background-color: #20B2AA;
 }
+
 #skills h2 {
 	background-color: #5F9EA0;
 	color: white;
 	text-align: center;
-	font-family: "Palatino";
+	font-family: "Merriweather";
 	margin-left: 10px;
 	margin-right: 10px;
 }
+
 #skills ul li {
 	margin-left: 10px;
 	margin-right: 10px;
-	font-family: "Palatino";
+	font-family: "Merriweather";
 	color: white;
 	text-align: left;
 	list-style-type: none;
 	border-style:inset;
 	border-color:grey;
 }
+
 #edu {
 	text-align: center;
 	border-style: solid;
@@ -100,35 +316,40 @@ h2 {
 	padding-left: 10px;
 	background-color: #20B2AA;
 }
+
 #edu h2 {
 	background-color: #5F9EA0;
 	color: white;
 	text-align: center;
-	font-family: "Palatino";
+	font-family: "Merriweather";
 	margin-left: 10px;
 	margin-right: 10px;
 }
+
 #edu h4 {
 	color: white;
-	font-family: "Palatino";
+	font-family: "Merriweather";
 	background-color: #5F9EA0;
 	margin-left: 20px;
 	margin-right: 20px;
 }
+
 #edu p {
 	color: white;
-	font-family: "Palatino";
+	font-family: "Merriweather";
 }
+
 #edu ul li {
 	margin-left: 10px;
 	margin-right: 10px;
-	font-family: "Palatino";
+	font-family: "Merriweather";
 	color: white;
 	text-align: left;
 	list-style-type: none;
 	border-style:inset;
 	border-color:grey;
 }
+
 #experience {
 	text-align: center;
 	border-style: solid;
@@ -143,46 +364,52 @@ h2 {
 	padding-left: 10px;
 	background-color: #20B2AA;
 }
+
 #experience h2 {
 	background-color: #5F9EA0;
 	color: white;
 	text-align: center;
-	font-family: "Palatino";
+	font-family: "Merriweather";
 	margin-left: 10px;
 	margin-right: 10px;
 }
+
 #experience h4 {
 	color: white;
-	font-family: "Palatino";
+	font-family: "Merriweather";
 	background-color: #5F9EA0;
 	margin-left: 20px;
 	margin-right: 20px;
 }
+
 #experience ul li {
 	margin-left: 10px;
 	margin-right: 10px;
-	font-family: "Palatino";
+	font-family: "Merriweather";
 	color: white;
 	text-align: left;
 	list-style-type: none;
 	border-style:inset;
 	border-color:grey;
 }
+
 #experience p {
 	color: white;
-	font-family: "Palatino";
+	font-family: "Merriweather";
 }
+
 #contact {
 	background-color: #20B2AA;
 	color: white;
 	font-size: 25px;
 	text-align: center;
-	font-family: "Palatino";
+	font-family: "Merriweather";
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 10px;
 	border-style: hidden;
-}	
+}
+	
 #end {
 	text-align: center;
 	border-style: solid;
@@ -197,22 +424,23 @@ h2 {
 	padding-left: 10px;
 	background-color: #20B2AA;
 }
+
 #end h4{
 	background-color: #5F9EA0;
 	color: white;
 	font-size: 25px;
 	text-align: center;
-	font-family: "Palatino";
+	font-family: "Merriweather";
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 10px;
 }
+
 #end p {
 	color: white;
-	font-family: "Palatino";
+	font-family: "Merriweather";
 }
 	
-
 #header {
 	text-align: center;
 	border-style: solid;
@@ -227,33 +455,52 @@ h2 {
 	padding-left: 10px;
 	background-color: #20B2AA;
 }
+
 #header p {
 	color:white;
-	font-family: "Palatino";
+	font-family: "Merriweather";
 }
+
 #Genres {
 	text-align: center;
 	border-style: solid;
 	border-color: #E3735E;
 	float: center;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	padding: 10px;
-	padding-right: 10px;
-	padding-left: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 15%;
+	margin-bottom: 15%;
+	padding: 10%;
+	padding-right: 10%;
+	padding-left: 10%;
 	background-color: #20B2AA;
 }
+
 p {
 	color:white;
-	font-family: "Palatino";
+	font-family: "Merriweather";
 }
+
 h3 {
 	background-color: #5F9EA0;
 	color: white;
 	text-align: center;
-	font-family: "Palatino";
+	font-family: "Merriweather";
 	margin-left: 20px;
 	margin-right: 20px;
+}
+
+#wrapper {
+	width: 900px;
+	height: 900px;
+	background-color:blue;
+	margin: auto;
+	overflow: hidden;
+}
+
+#canvas {
+	width: 700px;
+	height: 700px;
+	background-color:grey;
+	margin: 10% auto;
 }
