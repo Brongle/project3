@@ -1,4 +1,7 @@
-function initMap() {
+let map;
+
+async function initMap() {
+	const { Map } = await google.maps.importLibrary("maps");
 	var el = document.getElementById('canvas');
 	var myLocation = new google.maps.LatLng(52.23029990325073, 21.000073548420396); {
 	var mapO = {
