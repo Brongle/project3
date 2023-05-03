@@ -12,6 +12,7 @@ function init() {
 		}
 	});
   }
+}
 	var myMap= new google.maps.Map(el,mapO);
 	
 	var marker = new google.maps.Marker({
@@ -31,4 +32,3 @@ function init() {
 		infowindow.open(myMap, marker);
 
 google.maps.event.addDomListener(window,'load', init);
-		
