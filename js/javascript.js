@@ -12,3 +12,4 @@ function initMap() {
 		content:<h1>Warsaw, Poland</h1> <p> My family is from Poland and Warsaw is the capital of Poland with many beautiful areas to visit. Although my family is not from Warsaw the city has many interesting sites and a very rich history.</p>';
 	});
 }
+google.maps.event.addDomListener(window, 'load', initMap);
