@@ -23,7 +23,7 @@ async function initMap() {
 	  icon: "images/poland.png"
 	});
 	
-	var contentPL= '<h1>Warsaw, Poland</h1><p> My family is from Poland and Warsaw is the capital of Poland with many beautiful areas to visit. Although my family is not from Warsaw the city has many interesting sites and a very rich history.</p>';
+	var contentPL= '<h1>Warsaw, Poland</h1><h3> My family is from Poland and Warsaw is the capital of Poland with many beautiful areas to visit. Although my family is not from Warsaw the city has many interesting sites and a very rich history.</p>';
 
     var infowindow = new google.maps.InfoWindow({
 		content: contentPL
