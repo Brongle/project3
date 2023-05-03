@@ -13,9 +13,8 @@ async function initMap() {
 		}
 	};
   }
-	var myMap= new google.maps.Map(el,mapO);
+	var myMap= new google.maps.Map(el, mapO);
 	
-
 	var marker = new google.maps.Marker({
 	  position: myLocation,
 	  map: myMap,
