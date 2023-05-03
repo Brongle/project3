@@ -12,7 +12,6 @@ function init() {
 		}
 	});
   }
-}
 	var myMap= new google.maps.Map(el,mapO);
 	
 	var marker = new google.maps.Marker({
@@ -24,11 +23,12 @@ function init() {
 	});
 	marker.setMap(myMap);
 	var contentPL= '<h1>Warsaw, Poland</h1> <p> My family is from Poland and Warsaw is the capital of Poland with many beautiful areas to visit. Although my family is not from Warsaw the city has many interesting sites and a very rich history.</p>';
-}
+
     var infowindow = new google.maps.InfoWindow({
 		content: contentPL
 	});
 	google.maps.event.addListener(marker, 'mouseover'function() {
 		infowindow.open(myMap, marker);
-
+	});
+}
 google.maps.event.addDomListener(window,'load', init);
